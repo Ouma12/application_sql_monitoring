@@ -1,0 +1,29 @@
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Project</th>
+        <th scope="col">Dernier Check</th>  
+        <th scope="col">Uptime</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr scope="row" *ngFor="let project of mergettable ">
+        <td >
+          <span style="color:rgb(120,166,255) ">{{project.name}}</span>
+           <br>
+                    {{project.date_prod}}   
+                   </td>        
+        <td>
+          {{project.date}}     
+        </td>
+        <td>
+          <span [ngStyle]="{'background-color':project.app === 1? 'green' : project.app==0 ?'yellow':'red'}"> APP</span> -
+          <span [ngStyle]="{'background-color':project.db === 1? 'green' : project.db===0 ?'yellow':'red'}">DB</span> -
+          <span [ngStyle]="{'background-color':project.dsk>= 95? 'red' : (project.dsk >=85 && project.dsk <95)?'yellow':'green'}"> DSK</span>
+
+          
+          </td>
+      </tr>
+    </tbody> 
+  </table>
+  

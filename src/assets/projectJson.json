@@ -1,0 +1,45 @@
+[
+    {
+      "id":1 ,
+      "name":"Rona",
+      "date_prod":"2016-12-05"
+  
+  },
+  {
+      "id":2,
+      "name":"Cascades",
+      "date_prod":"2020-09-29"
+  },
+  {
+      "id":3,
+      "name":"Molson",
+      "date_prod":"2017-02-10"
+  },
+  {
+      "id":4,
+      "name":"Roski",
+      "date_prod":"2018-03-17"
+  },
+  {
+      "id":5,
+      "name":"Kruger",
+      "date_prod":"2015-12-10"
+  },
+  {
+      "id":6,
+      "name":"Vidéotron",
+      "date_prod":"2014-05-25"
+  },
+  {
+      "id":7,
+      "name":"Naya",
+      "date_prod":"2012-06-16"
+  },
+  {
+      "id":8,
+      "name":"Loblaws",
+      "date_prod":"2015-10-27"
+  }
+   ]
+
+  
